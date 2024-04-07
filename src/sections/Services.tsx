@@ -52,7 +52,7 @@ const Services: React.FC = () => {
 
   return (
     <div ref={counterRef}>
-      <div id="services">
+      <div id="partners">
         <div className="flex items-center gap-4 ml-40 mt-10">
           <div className="w-[10px] h-[35px] bg-[gray]" />
           <h2 className="uppercase text-4xl tracking-tight font-[400] text-text-dark-primary">

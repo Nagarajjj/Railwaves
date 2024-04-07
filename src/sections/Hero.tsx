@@ -78,17 +78,7 @@ const Hero = () => {
       <source src="/assets/Transportation.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-    <div className="h-full flex items-center justify-center">
-      <div className="text-white max-w-2xl">
-        <h1 className="text-[#000000] text-[1.5rem] font-[900] uppercase">
-          Ship your dreams
-        </h1>
-        <p className="text-[#000000] font-[500] text-[1.5rem]">
-          Create a delightful online journey by optimising your
-          shipping process and everything surrounding it
-        </p>
-      </div>
-    </div>
+  
   </section>
   
   );

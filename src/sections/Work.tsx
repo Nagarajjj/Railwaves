@@ -98,7 +98,7 @@ const EmailForm: React.FC = () => {
   };
 
   return (
-    <div className="wrapper  bg-section-dark-color py-24 -mt-5 ml-200">
+    <div id="booking" className="wrapper  bg-section-dark-color py-24 -mt-5 ml-200">
   {/* Header */}
   <div className="flex items-center gap-4 pl-[200px]">
   <div className="w-[10px] h-[35px] bg-[gray]" />
@@ -125,11 +125,11 @@ const EmailForm: React.FC = () => {
       <label htmlFor="serviceType" className="text-white text-sm font mb-2">Service Type:</label>
       <select name="serviceType" value={formData.serviceType} onChange={handleServiceTypeChange} id="serviceType" className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
         <option value="">Select service type</option>
-        <option value="1">Two Wheeler Parcel</option>
+        <option value="1">Bike Transport Service</option>
         <option value="2">Parcel Booking</option>
-        <option value="3">Warehouse</option>
-        <option value="4">Full Truck</option>
-        <option value="5">Half Truck</option>
+        <option value="3">Warehouse Storage</option>
+        <option value="4">Full Truck Load</option>
+        <option value="5">Part Truck Load</option>
       </select>
     </div>
     {/* Additional fields based on service type */}

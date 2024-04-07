@@ -1,6 +1,6 @@
 const StayInTouch = () => {
   return (
-    <section id="contact" className="py-24 bg-white">
+    <section id="about" className="py-24 bg-white">
       <div className="flex items-center gap-4 max-w-5xl mx-auto ">
         <div className="w-[10px] h-[35px] bg-[gray]" />
         <h2 className="uppercase text-4xl tracking-tight font-[400] text-text-dark-primary">
